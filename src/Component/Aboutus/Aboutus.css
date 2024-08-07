@@ -1,0 +1,91 @@
+.aboutus{
+    display: grid;
+    margin: 1px;
+    height: 160vh;
+    width: 100%;
+    margin-left: 1px;
+}
+.bannerr{
+    height: 20vh;
+    margin-top: 1px;
+   
+}
+
+.bannerr-img{
+    height:300px;
+    width: 1200px;
+    position: relative;
+    top: 5px;
+    
+}
+
+.about-body{
+    background: #e7bcbc47;
+    height: 600px;
+    position: relative;
+    top: 200px;
+}
+.about-para{
+    padding-top: 0px;
+    margin-top: 10px;
+    margin-bottom: 70px;
+    padding-left: 40px;
+    height: 100vh;
+    width: 50%;
+    
+}
+.about-para h1{
+    position: relative;
+    top: -162px;
+    left: 270px;
+    padding-left: 40px;
+    font-family: alex brush;
+    font-size:75px; 
+    color: plum;
+}
+.about-para h3{
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-left: 40px;
+}
+.about-para p{
+    font-size: 15px;
+    color: #2B1103;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-left: 40px;
+    justify-content: space-between;
+}
+  
+.about-para button{
+    height: 52px;
+    width: 225px;
+     color:white;
+     margin-left: 40px;
+     background:#b083b0 ;
+     margin-top: 20px;
+     border: none;
+     font-size: 24px;
+     font-weight: 200;
+     cursor: pointer;
+}
+.about-para button:hover{
+    
+    
+    outline: none;
+    border: 1px solid #b083b0;
+    color: #b083b0;
+    font-size: 24px;
+    font-weight: 200;
+    background: transparent;
+    cursor: pointer;
+}
+
+.poster{
+    width: 430px;
+    height: 350px;
+    position: relative;
+    top: -680px;
+    left: 700px;
+   
+}

@@ -1,0 +1,17 @@
+.product-display{
+    margin-top: 30px;
+
+}
+.product-display h2{
+    color: plum;
+    font-weight: 600;
+    font-size: 100px;
+    font-family: alex brush;
+}
+.product-display-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill ,minmax(240px,1fr));
+    margin-top: 20px;
+    gap: 30px;
+    row-gap: 50px;
+}

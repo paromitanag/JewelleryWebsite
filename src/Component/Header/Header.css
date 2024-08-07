@@ -1,0 +1,73 @@
+.header{
+    height: 50vw;
+    width: 1200px;
+    margin: 2px auto;
+    background: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/df383490885971.5e230dd39d725.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+   
+}
+.header-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    left: 6vw;
+    animation: fadeIn 3s;
+}
+.header-contents h2{
+    font-weight: 700;
+    color: #8e518e;
+    width: 400px;
+    font-size: max(5.5vw,22px);
+    font-family: alex brush;
+    position: relative;
+    top: -100px;
+    left: 600px;
+
+}
+.header-contents p{
+    color: #ffffff;
+    font-size: 2vw;
+    position: relative;
+    top: -100px;
+    left: 500px;
+}
+.header-contents button{
+    border: none;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color:#8e518ee2;
+    font-size: max(1vw, 13px);
+    border-radius: 50px;
+    position: relative;
+    top: -70px;
+    left: 700px;
+}
+  
+
+@media(max-width:1050px){
+    .header{
+        height: 38vw;
+    }
+    .header-contents{
+        max-width: 45%;
+    }
+}
+
+
+@media(max-width:750px){
+    .header-contents{
+        max-width: 55%;
+    }
+    .header-contents p{
+        display: none;
+    }
+    .header-contents button{
+        padding: 2vw 4vw;
+    }
+}
